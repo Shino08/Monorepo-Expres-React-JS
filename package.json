@@ -1,0 +1,22 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "turbo dev",
+    "build": "turbo build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "Apps/*"
+  ],
+  "type": "commonjs",
+  "packageManager": "npm@10.2.4",
+  "devDependencies": {
+    "turbo": "^2.8.1"
+  }
+}
